@@ -1,0 +1,85 @@
+:root{
+    --bg1:rgb(174, 0, 255);
+    --bg2:aqua;
+  }
+  body{
+    background:url();background-size: cover;background: linear-gradient(to bottom left,var(--bg1),var(--bg2));height:850px;
+  }
+  h1[type=text]{
+    text-align: center;margin-top: 30px;margin-bottom: 60px;color: rgb(0, 0, 0);font-family: 'Times New Roman';padding-top: 80px;
+  }
+  input[type=text] {
+  border: 0px;box-sizing: border-box;border: 0px solid #ccc;-webkit-transition: 0.5s;transition: 0.5s;outline: none;
+  }
+  input[type=text]:focus {
+  border: 1px solid #555;opacity: 80%;
+  }
+  input[type=text], input[type=password] {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 8px 10px;
+  display: inline-block;
+  border: 0px solid #ccc;
+  box-sizing: border-box;
+  opacity: 50%;
+  }
+  hr{
+    margin-left: 100px;margin-right: 100px;margin-top: 5px; margin-bottom: 20px;
+  }
+  .anh{
+    width: 45px;height: 25px;margin-top: 15px;opacity: 50%;
+  }
+  .anh2{
+    width: 25px;height: 25px;margin-top: 15px;margin-left: 10px; opacity: 50%;
+  }
+  .nhap{
+   
+  }
+  .dn{
+    background: linear-gradient(to bottom ,rgb(112, 179, 255),rgb(230, 107, 255));
+    color: #ffffff;
+    font-weight: 800;
+    padding: 10px 20px;
+    margin: 20px 5px 20px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 90%;
+    font-family: Helvetica, sans-serif;
+  }
+  .dk{
+    background: linear-gradient(to bottom ,rgb(218, 139, 255),rgb(149, 130, 255));
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px 200px 12px 188px;
+    margin: 20px 10px 15px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-size: 800px 100px;
+    font-family: Helvetica, sans-serif;
+  }
+  input.thoat{
+    background: linear-gradient(to bottom ,rgb(133, 190, 255),rgb(234, 129, 255));
+    color: #ffffff;
+    font-weight: 800;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+  }
+  a{
+    color: black;
+  }
+  a.qumk:hover{
+    opacity: 50%;
+  }
+  .box{
+    width: 1200px;height: 700px;background:url(anh/box.jpg);margin-left: auto;margin-right: auto;margin-top:150px;border-radius: 10px;
+  }
+  .box2{
+    width: 500px;height: 630px;background: white;border-radius: 5px;float: right;margin-top: 35px;margin-right: 25px;
+  }
