@@ -1,0 +1,96 @@
+body{
+    background:rgb(51, 51, 51);margin: 0px;
+}
+h1{
+    text-align: center;color: rgb(226, 48, 48);transition-duration: 0.8s;
+}
+h1:hover{
+    color: #ddd;
+}
+.thanhtren{
+    background: rgb(31, 30, 30);height: 4.3em;width: 100%;margin: 0px;padding: 0px;display: flex;
+}
+.trangchu,.TA,.TL,.SS,.TV,.LC{
+    color: white;margin: 10px;padding: 10px 60px;transition-duration: 0.8s;
+}
+.trangchu a,.TA a,.TL a,.SS a,.TV a,.LC a{
+    color: white;text-decoration: none;
+}
+.trangchu:hover,.TA:hover,.TL:hover,.SS:hover,.TV:hover,.LC:hover{
+    text-decoration: none;color: white;background: rgb(255, 45, 45);
+}
+.cactheloai {
+  display: none;
+  position: absolute;
+  margin: 10px -60px;
+  background-color: #f1f1f1;
+  min-width: 184px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.cactheloai a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.cactheloai a:hover {background-color: #ddd;}
+.TL:hover .cactheloai {display: block;}
+.thanhtren input{
+    background: rgb(32, 32, 32);size: 50px;margin: 18px 50px 18px 50px ;padding: 0px;border-color: rgb(65, 68, 77);
+}
+.dn a{
+    color: white;padding:7px 35px;position: absolute;text-decoration: none;
+}
+.dn{
+    background: red;border-radius: 3px;height: 35px;width: 150px;margin: 15px;
+}
+.dn:hover{
+    background: rgb(185, 18, 18);
+}
+.container{
+    width: 70em;
+}
+h2{
+    text-align: center;background: rgb(43, 43, 43);
+}
+h3{
+    color: #e5e4e4;
+}
+.ctl{
+    color: white;text-align: center;background: rgb(43, 43, 43);font-size: 30px;width: 62%;margin: 10px auto 25px auto;padding-top: 5px;
+}
+.theloaiphim{
+    display: flex;justify-content: center;flex-wrap: wrap;margin: 0px 18% 0px 18%;
+}
+.anhmuathu{
+    width: 200px;height: 300px;padding: 10px;
+}
+.anhmuathu:hover{
+    opacity: 50%;
+}
+.star{
+    width: 50px;height: 50px;position: absolute;margin: 10px 20px 5px 10px;
+}
+.ttdiachi{
+    background: rgb(26, 24, 24);height: 15em;margin: auto;justify-content: center;text-align: center;color: #f1f1f1;
+}
+.ttdiachi{
+    background: rgb(26, 24, 24);height: 15em;margin: auto;justify-content: center;text-align: center;color: #f1f1f1;
+}
+@media screen and (max-width: 400px){
+    .trangchu{
+        max-width: 400px;
+    }
+    .thanhtren{
+        width: 100%;background: aqua;
+    }
+    }
+    @media screen and (min-width: 1020px){
+    .trangchu{
+        max-width: 1020px;
+    }
+    .thanhtren{
+        width: 100%;
+    }
+    }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Đăng Nhập</title>
+  </head>
+  <body>
+<div class="box">
+<div class="box2">
+    <div class="thongtin">
+        <h1 type="text">Đăng Nhập</h1>
+      
+      <form onsubmit="mylogin()">
+        <div class="nhap" style="display: flex;">
+            <label for="username" style="float: left;width: 30px;margin-left: 100px;"><img class="anh" src="anh/icon_nguoi_png.png"></label>
+           <input id="username" type="text" placeholder="Nhập vào tài khoản" />
+        </div>
+        <hr/>
+        <div class="nhap" style="display: flex;">
+            <label for="email" style="float: left;width: 30px;margin-left: 100px;"><img class="anh2" src="anh/icon_email.png"></label>
+          <input id="email" type="text" placeholder="Nhập vào Email" />
+        </div>
+        <hr/>
+        <div class="nhap" style="display: flex;">  
+          <label for="text" style="float: left;width: 30px;margin-left: 100px;"><img class="anh" src="anh/icon_o_khoa.png"></label>     
+          <input id="password" type="password" placeholder="Nhập vào mật khẩu" />
+        </div>
+        <hr/>
+        <div style="margin-left: 110px;margin-top: 0px;">
+          <input id="nh" class="nho" type="checkbox"/>
+          <label for="nh">Nhớ mật khẩu</label>
+          <span style="margin-left: 70px;" id="qmk"><a class="qumk" href="">Quên mật khẩu?</a></span>        
+      </div>
+        <div>
+        <button id="btn" class="dn">Đăng Nhập</button>
+      </div>
+        <a href="signup.html" class="dk">Đăng ký</a>
+      </form>
+    </div>
+  </div>
+</div>
+    <script src="./main.js"></script>
+  </body>
+</html>
